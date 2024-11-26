@@ -1,0 +1,31 @@
+{
+  "name": "hast-util-find-parent",
+  "version": "0.0.1",
+  "description": "utility to find a node's parent in a tree.",
+  "main": "index.js",
+  "author": "Chris Newton <me@chrisnewtn.com> (https://chrisnewtn.com)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "npm run build -- --noEmit",
+    "prepack": "npm run build",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chrisnewtn/hast-util-find-parent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisnewtn/hast-util-find-parent/issues"
+  },
+  "homepage": "https://github.com/chrisnewtn/hast-util-find-parent#readme",
+  "dependencies": {
+    "@types/hast": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "hastscript": "^9.0.0",
+    "typescript": "^5.7.2"
+  }
+}
