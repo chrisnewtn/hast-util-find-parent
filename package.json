@@ -1,6 +1,6 @@
 {
   "name": "hast-util-find-parent",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "utility to find a node's parent in a tree.",
   "main": "index.js",
   "author": "Chris Newton <me@chrisnewtn.com> (https://chrisnewtn.com)",
